@@ -1,0 +1,16 @@
+@import "../breakpoints/breakpoints.scss";
+
+.spinstyle{
+    align-items: center;
+    display: flex;
+    
+    @include respond-to("mobile"){
+        font-size: 6.5vw;
+        // box-sizing: border-box;
+        // position:relative;
+        // display:flex;
+        // size: 300px;
+        
+        
+    }
+}
